@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>A-Lister Returns</title>
+    <link rel="stylesheet" href="interest.css" />
+    <script src="interest.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>A-LISTER RETURNS</h1>
+      </header>
+      <info>
+        <p>
+          Welcome to A-Lister Returns, a compound interest calculator! Use the
+          form below to calculate how your investment grows over time.<br />
+          Simply enter the principal amount, interest rate, number of times
+          interest is compounded per year, and the total number of years. As you
+          adjust the values, the calculator will instantly update to show your
+          total earnings and the final amount.
+        </p>
+      </info>
+      <form>
+        <div>Principal:</div>
+        <div><input id="principal" /></div>
+        <div>Interest Rate:</div>
+        <div><input id="rate" />%</div>
+        <div>Compound Frequency:</div>
+        <div><input id="cpy" /></div>
+        <div>Length of Time in Years:</div>
+        <div><input id="years" /></div>
+        <div><output id="total">Total Money:</output></div>
+        <br />
+        <div><output id="earned">Amount of Money Earned:</output></div>
+      </form>
+      <figure id="sign">
+        <img src="docs/images/hollywood-sign.png" />
+      </figure>
+      <footer>
+        <figure class="stars"><img src="docs/images/star.png" /></figure>
+        <a href="https://codesandbox.io/p/sandbox/starinterest-sdnvt6">
+          Code Sandbox Source Code</a
+        ><br />
+        <figure class="stars"><img src="docs/images/star.png" /></figure>
+      </footer>
+    </main>
+  </body>
+</html>
